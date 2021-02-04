@@ -23,8 +23,8 @@ import com.bagus.spring.services.StateService;
 public class LocationController {
 	
 	@Autowired private StateService stateService;
-	@Autowired private LocationService locationService;
 	@Autowired private CountryService countryService;
+	@Autowired private LocationService locationService;
 	
 	//Menampilkan semua data 
 	
